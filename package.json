@@ -15,8 +15,7 @@
   },
   "files": [
     "src/GithubStats.astro",
-    "index.ts",
-    "assets"
+    "index.ts"
   ],
   "keywords": [
     "astro-component",
