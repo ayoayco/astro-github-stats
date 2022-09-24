@@ -3,7 +3,7 @@
   "description": "Embed github stats in your Astro page",
   "repository": "https://github.com/ayoayco/astro-github-stats",
   "homepage": "https://github.com/ayoayco/astro-github-stats",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": {
     "name": "Ayo Ayco",
     "email": "ramon.aycojr@gmail.com",
