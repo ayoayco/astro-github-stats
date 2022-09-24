@@ -20,7 +20,7 @@ import GithubStats from 'astro-github-stats';
 ```
 
 # Showcase
-![screenshot](./assets/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/ayoayco/astro-github-stats/main/assets/screenshot.png)
 
 # Future plans
 
