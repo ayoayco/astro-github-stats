@@ -2,8 +2,6 @@
 
 Embed github stats in your Astro page ✨
 
-This is a wrapper for [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
-
 # Usage
 
 Install in use in your Astro project:
@@ -20,3 +18,14 @@ import GithubStats from 'astro-github-stats';
 ---
 <GithubStats username="ayoayco" />
 ```
+
+# Showcase
+![screenshot](./assets/screenshot.png)
+
+# Future plans
+
+This is a wrapper for [github-readme-stats](https://github.com/anuraghazra/github-readme-stats). Other features will be supported later:
+1. repo stats card
+1. themes
+1. account top languages
+
