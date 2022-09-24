@@ -1,0 +1,9 @@
+---
+const { username } = Astro.props;
+const url = "https://github-readme-stats.vercel.app/api/"
+  + `?username=${username}`;
+---
+
+<img src={url} />
+
+

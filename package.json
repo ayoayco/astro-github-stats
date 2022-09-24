@@ -1,12 +1,17 @@
 {
-  "name": "astro-component-name",
-  "version": "0.1.0",
+  "name": "astro-github-stats",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ayo Ayco",
+    "email": "ramon.aycojr@gmail.com",
+    "url": "https://ayco.io"
+  },
   "type": "module",
   "exports": {
     ".": "./index.ts"
   },
   "files": [
-    "src",
+    "src/GithubStats.astro",
     "index.ts"
   ],
   "keywords": [
@@ -15,7 +20,8 @@
   "scripts": {
     "test": "mocha --parallel --timeout 15000",
     "format": "prettier -w .",
-    "lint": "eslint . --ext .ts,.js"
+    "lint": "eslint . --ext .ts,.js",
+    "build": "tsc"
   },
   "devDependencies": {
     "@types/chai": "^4.3.3",
