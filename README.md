@@ -1,5 +1,9 @@
 # Astro Github Stats
 
+[![npm](https://img.shields.io/npm/v/astro-github-stats)](https://www.npmjs.com/package/astro-github-stats)
+[![npm](https://img.shields.io/npm/l/astro-github-stats)](https://www.npmjs.com/package/astro-github-stats)
+[![github](https://img.shields.io/github/last-commit/ayoayco/astro-github-stats)](https://github.com/ayoayco/astro-github-stats)
+
 Embed github stats in your Astro page ✨
 
 # Usage
