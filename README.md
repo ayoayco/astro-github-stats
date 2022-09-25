@@ -1,4 +1,4 @@
-# Astro Github Stats
+# Astro GitHub Stats ✨
 [![npm](https://img.shields.io/npm/v/astro-github-stats)](https://www.npmjs.com/package/astro-github-stats)
 [![npm](https://img.shields.io/npm/l/astro-github-stats)](https://www.npmjs.com/package/astro-github-stats)
 [![npm](https://img.shields.io/npm/dt/astro-github-stats)](https://www.npmjs.com/package/astro-github-stats)
