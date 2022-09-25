@@ -21,7 +21,7 @@ npm i astro-github-stats
 
 Then use on your Astro page:
 
-```
+```astro
 ---
 import GithubStats from 'astro-github-stats';
 ---
