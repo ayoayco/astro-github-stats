@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/dt/astro-github-stats)](https://www.npmjs.com/package/astro-github-stats)
 [![github](https://img.shields.io/github/last-commit/ayoayco/astro-github-stats)](https://github.com/ayoayco/astro-github-stats)
 
-Embed github stats on your [Astro](https://astro.build) page ✨
+Embed GitHub stats on your [Astro](https://astro.build) page ✨
 
 ![screenshot](https://raw.githubusercontent.com/ayoayco/astro-github-stats/main/assets/screenshot.png)
 
