@@ -8,6 +8,8 @@ Embed github stats on your [Astro](https://astro.build) page ✨
 
 ![screenshot](https://raw.githubusercontent.com/ayoayco/astro-github-stats/main/assets/screenshot.png)
 
+**Demo:** [https://ayco.io/showcase/astro-github-stats](https://ayco.io/showcase/astro-github-stats)
+
 *Please report issues found or suggestions in the [project issues page](https://github.com/ayoayco/astro-github-stats/issues)*
 
 ### Usage
