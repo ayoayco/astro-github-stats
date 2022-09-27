@@ -1,6 +1,15 @@
 ---
-const { username } = Astro.props;
-const url = "https://github-readme-stats.vercel.app/api/"
-  + `?username=${username}`;
+export interface Props {
+	username: string;
+	repo?: string;
+}
+const { username, repo } = Astro.props;
+const baseUrl = 'https://github-readme-stats.vercel.app/api/';
+let url = `${baseUrl}?username=${username}`;
+
+if (repo) {
+	url = `${baseUrl}/pin/?username=${username}&repo=${repo}`;
+}
 ---
+
 <img src={url} />
