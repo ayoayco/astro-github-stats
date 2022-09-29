@@ -10,6 +10,7 @@ Embed GitHub stats on your [Astro](https://astro.build) page ✨
 Features:
 
 1. Embed GitHub Account stats
+1. Embed GitHub Account top languages
 1. Embed GitHub Repositories info with stars
 
 # Insatllation
@@ -30,6 +31,9 @@ import GithubStats from 'astro-github-stats';
 <!-- Add your account stats -->
 <GithubStats username="ayoayco" />
 
+<!-- Add your account stats -->
+<GithubStats username="ayoayco" topLanguages={true} />
+
 <!-- Add a repo card with info and stars -->
 <GithubStats username="withastro" repo="astro" />
 ```
@@ -39,6 +43,10 @@ import GithubStats from 'astro-github-stats';
 Example Account Card:
 
 ![screenshot](https://raw.githubusercontent.com/ayoayco/astro-github-stats/main/assets/screenshot.png)
+
+Example Account Top Languages:
+
+<img width="312" alt="Screen Shot 2022-09-29 at 9 09 05 PM" src="https://user-images.githubusercontent.com/4262489/193121588-9737c861-d08a-4103-9d9b-11bcd0c7c713.png">
 
 Example Repo Card:
 
