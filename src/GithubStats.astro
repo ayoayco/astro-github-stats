@@ -3,10 +3,11 @@ export interface Props {
 	username: string;
 	topLanguages?: boolean;
 	repo?: string;
+	showIcons?: boolean;
 }
-const { username, repo, topLanguages } = Astro.props;
+const { username, repo, topLanguages, showIcons } = Astro.props;
 const baseUrl = 'https://github-readme-stats.vercel.app/api/';
-let url = `${baseUrl}?username=${username}`;
+let url = `${baseUrl}?username=${username}&show_icons=${!!showIcons}`;
 
 if (repo) {
 	url = `${baseUrl}/pin/?username=${username}&repo=${repo}`;
