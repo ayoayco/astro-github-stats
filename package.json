@@ -26,7 +26,8 @@
     "test": "mocha --parallel --timeout 15000",
     "format": "prettier -w .",
     "lint": "eslint . --ext .ts,.js",
-    "build": "tsc"
+    "build": "tsc",
+    "demo": "npm run dev -w demo"
   },
   "devDependencies": {
     "@types/chai": "^4.3.3",
@@ -50,5 +51,8 @@
   "peerDependencies": {
     "astro": "^1.0.0"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "workspaces": [
+    "demo"
+  ]
 }
