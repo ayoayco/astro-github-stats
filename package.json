@@ -23,6 +23,8 @@
     "ui"
   ],
   "scripts": {
+    "start": "npm run dev -w demo",
+    "dev": "npm run dev -w demo",
     "test": "mocha --parallel --timeout 15000",
     "format": "prettier -w .",
     "lint": "eslint . --ext .ts,.js",
