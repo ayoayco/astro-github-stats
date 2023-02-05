@@ -3,7 +3,7 @@
   "description": "Embed GitHub stats in your Astro page ✨",
   "repository": "https://github.com/ayoayco/astro-github-stats",
   "homepage": "https://ayco.io/showcase/astro-github-stats",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "author": {
     "name": "Ayo Ayco",
     "email": "ayo@ayco.io",
@@ -39,7 +39,7 @@
     "@types/prettier": "^2.7.0",
     "@typescript-eslint/eslint-plugin": "^5.37.0",
     "@typescript-eslint/parser": "^5.37.0",
-    "astro": "^1.0.0",
+    "astro": "^2.0.6",
     "astro-component-tester": "^0.6.0",
     "chai": "^4.3.6",
     "eslint": "^8.23.1",
