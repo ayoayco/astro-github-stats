@@ -25,33 +25,26 @@
   "scripts": {
     "start": "npm run dev -w demo",
     "dev": "npm run dev -w demo",
-    "test": "mocha --parallel --timeout 15000",
     "format": "prettier -w .",
     "lint": "eslint . --ext .ts,.js",
     "build": "tsc",
     "demo": "npm run dev -w demo"
   },
   "devDependencies": {
-    "@types/chai": "^4.3.3",
     "@types/eslint": "^8.4.6",
-    "@types/mocha": "^9.1.1",
     "@types/node": "^18.7.18",
     "@types/prettier": "^2.7.0",
     "@typescript-eslint/eslint-plugin": "^5.37.0",
     "@typescript-eslint/parser": "^5.37.0",
-    "astro": "^2.0.6",
-    "astro-component-tester": "^0.6.0",
-    "chai": "^4.3.6",
     "eslint": "^8.23.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "mocha": "^10.0.0",
     "prettier": "^2.7.1",
     "prettier-plugin-astro": "^0.5.4",
     "typescript": "^4.8.3"
   },
   "peerDependencies": {
-    "astro": "^1.0.0"
+    "astro": "^2.0.6"
   },
   "license": "ISC",
   "workspaces": [
