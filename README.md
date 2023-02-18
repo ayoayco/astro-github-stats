@@ -13,7 +13,7 @@ Features:
 1. Embed GitHub Account top languages
 1. Embed GitHub Repositories info with stars
 
-# Insatllation
+# Installation
 
 ```
 npm i astro-github-stats
