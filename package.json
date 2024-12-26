@@ -25,7 +25,7 @@
   "scripts": {
     "start": "npm run dev -w demo",
     "dev": "npm run dev -w demo",
-    "format": "prettier -w .",
+    "format": "prettier . --write",
     "lint": "eslint . --config eslint.config.mjs",
     "build": "tsc",
     "demo": "npm run dev -w demo",
