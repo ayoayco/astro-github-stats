@@ -1,28 +1,28 @@
 ---
 export interface Props {
-	username: string;
-	topLanguages?: boolean;
-	repo?: string;
-	showIcons?: boolean;
-	altText?: string;
+	username: string
+	topLanguages?: boolean
+	repo?: string
+	showIcons?: boolean
+	altText?: string
 }
-const { username, repo, topLanguages, showIcons, altText } = Astro.props;
-const baseUrl = 'https://github-readme-stats.vercel.app/api/';
-let url = `${baseUrl}?username=${username}&show_icons=${!!showIcons}`;
+const { username, repo, topLanguages, showIcons, altText } = Astro.props
+const baseUrl = 'https://github-readme-stats.vercel.app/api/'
+let url = `${baseUrl}?username=${username}&show_icons=${!!showIcons}`
 
-let alt = `GitHub stats for account: ${username}`;
+let alt = `GitHub stats for account: ${username}`
 
 if (repo) {
-	url = `${baseUrl}/pin/?username=${username}&repo=${repo}`;
-	alt = `GitHub stats for repository: ${username}/${repo}`;
+	url = `${baseUrl}/pin/?username=${username}&repo=${repo}`
+	alt = `GitHub stats for repository: ${username}/${repo}`
 }
 
 if (topLanguages) {
-	url = `${baseUrl}top-langs?username=${username}`;
-	alt = `GitHub top languages for account: ${username}`;
+	url = `${baseUrl}top-langs?username=${username}`
+	alt = `GitHub top languages for account: ${username}`
 }
 
-alt = altText || alt;
+alt = altText || alt
 ---
 
 <img src={url} alt={alt} />
