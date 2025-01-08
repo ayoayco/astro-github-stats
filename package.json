@@ -51,7 +51,7 @@
     "typescript-eslint": "^8.18.2"
   },
   "peerDependencies": {
-    "astro": "^5"
+    "astro": ">=^5"
   },
   "license": "ISC",
   "workspaces": [
