@@ -1,4 +1,5 @@
 ---
+import {Image} from 'astro:assets'
 export interface Props {
 	username: string
 	topLanguages?: boolean
@@ -25,4 +26,4 @@ if (topLanguages) {
 alt = altText || alt
 ---
 
-<img src={url} alt={alt} />
+<Image inferSize={true} src={url} alt={alt} />
