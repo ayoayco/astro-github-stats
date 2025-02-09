@@ -1,5 +1,5 @@
 > [!Note]
-> Project moved to [SourceHug](https://git.sr.ht/~ayoayco/astro-github-stats)
+> Project moved to [SourceHut](https://git.sr.ht/~ayoayco/astro-github-stats)
 
 # Astro GitHub Stats ✨
 
