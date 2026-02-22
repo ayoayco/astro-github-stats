@@ -53,8 +53,5 @@
   "peerDependencies": {
     "astro": ">=5.0.0"
   },
-  "license": "ISC",
-  "workspaces": [
-    "demo"
-  ]
+  "license": "ISC"
 }
